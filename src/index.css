@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background: steelblue;
+  color: white;
+}
+
+.app__main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__header-container {
+  border-bottom: 1px solid white;
+  width: 100%;
+}
+
+.app__content-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #3b6d97;
+  flex-wrap: wrap;
+}
+
+.app__footer-container {
+  border-top: 1px solid white;
+  width: 100%;
+}
